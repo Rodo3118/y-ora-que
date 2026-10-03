@@ -1,0 +1,66 @@
+/** @type {import('tailwindcss').Config} */
+export default {
+  content: ['./index.html', './src/**/*.{js,ts,jsx,tsx}'],
+  theme: {
+    extend: {
+      colors: {
+        cantera: {
+          50: '#FBF2EF',
+          100: '#F5DFD8',
+          200: '#EABFB2',
+          300: '#DE9D8C',
+          400: '#D27D68',
+          500: '#C06249',
+          600: '#A24B35',
+          700: '#813B2A',
+          800: '#602B1F',
+          900: '#3F1C14',
+        },
+        terracota: {
+          50: '#FBEFE8',
+          100: '#F3D4C2',
+          200: '#E7AD85',
+          300: '#DB8752',
+          400: '#C96A35',
+          500: '#AD5527',
+          600: '#8C441F',
+          700: '#6C3418',
+          800: '#4C2410',
+          900: '#2E1608',
+        },
+        verde: {
+          50: '#EEF2EA',
+          100: '#D4DECB',
+          200: '#AFC19C',
+          300: '#89A36E',
+          400: '#6B864F',
+          500: '#4F6B38',
+          600: '#3D552B',
+          700: '#2E4020',
+          800: '#1F2B15',
+          900: '#12190C',
+        },
+        piedra: {
+          50: '#FAF8F5',
+          100: '#F0EBE3',
+          200: '#DED4C6',
+          300: '#C2B4A0',
+          400: '#A08D77',
+          500: '#7D6B57',
+          600: '#5F5041',
+          700: '#443930',
+          800: '#2C2420',
+          900: '#191412',
+        },
+      },
+      fontFamily: {
+        display: ['"Fraunces"', 'serif'],
+        sans: ['"Plus Jakarta Sans"', 'system-ui', 'sans-serif'],
+      },
+      backgroundImage: {
+        'grain': "radial-gradient(circle at 1px 1px, rgba(0,0,0,0.04) 1px, transparent 0)",
+      },
+    },
+  },
+  plugins: [],
+}
