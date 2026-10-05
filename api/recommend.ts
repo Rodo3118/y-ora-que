@@ -1,10 +1,10 @@
 import type { VercelRequest, VercelResponse } from '@vercel/node';
-import { requestRecommendations } from './_lib/anthropic';
-import { mapAnthropicError } from './_lib/errors';
-import { filterCandidates } from '../src/lib/filterVenues';
-import { validateRecommendations } from '../src/lib/validate';
-import { getCatalog } from '../src/lib/venues';
-import type { Filtros, Idioma, RecommendApiResponse, RecommendRequestBody } from '../src/lib/types';
+import { requestRecommendations } from './_lib/anthropic.js';
+import { mapAnthropicError } from './_lib/errors.js';
+import { filterCandidates } from '../src/lib/filterVenues.js';
+import { validateRecommendations } from '../src/lib/validate.js';
+import { getCatalog } from '../src/lib/venues.js';
+import type { Filtros, Idioma, RecommendApiResponse, RecommendRequestBody } from '../src/lib/types.js';
 
 const MAX_TEXTO_LENGTH = 400;
 

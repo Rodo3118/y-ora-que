@@ -1,6 +1,6 @@
 import Anthropic from '@anthropic-ai/sdk';
-import { BadResponseError, MissingApiKeyError } from './errors';
-import type { AiRecommendationPayload, Filtros, Idioma, Venue } from '../../src/lib/types';
+import { BadResponseError, MissingApiKeyError } from './errors.js';
+import type { AiRecommendationPayload, Filtros, Idioma, Venue } from '../../src/lib/types.js';
 
 /** Single place to bump the model version. */
 export const CLAUDE_MODEL = 'claude-sonnet-4-5';

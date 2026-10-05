@@ -1,5 +1,5 @@
-import rawVenues from '../data/venues.json';
-import type { Venue } from './types';
+import rawVenues from '../data/venues.json' with { type: 'json' };
+import type { Venue } from './types.js';
 
 const CATALOG = rawVenues as Venue[];
 

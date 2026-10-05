@@ -1,4 +1,4 @@
-import type { RawRecommendation, Recommendation, Venue } from './types';
+import type { RawRecommendation, Recommendation, Venue } from './types.js';
 
 interface ValidateResult {
   recomendaciones: Recommendation[];

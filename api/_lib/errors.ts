@@ -1,5 +1,5 @@
 import Anthropic from '@anthropic-ai/sdk';
-import type { ErrorCode } from '../../src/lib/types';
+import type { ErrorCode } from '../../src/lib/types.js';
 
 export class BadResponseError extends Error {}
 export class MissingApiKeyError extends Error {}

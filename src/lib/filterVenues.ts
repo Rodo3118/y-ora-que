@@ -1,4 +1,4 @@
-import type { Filtros, Precio, Venue } from './types';
+import type { Filtros, Precio, Venue } from './types.js';
 
 const PRICE_RANK: Record<Precio, number> = { $: 1, $$: 2, $$$: 3 };
 
