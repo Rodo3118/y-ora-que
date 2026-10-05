@@ -2,6 +2,8 @@
 
 **A bilingual, AI-powered outing planner for Zacatecas, Mexico.** Built as a portfolio piece for an "AI-Native Web Developer" internship application.
 
+**🔗 Live: [y-ora-que.vercel.app](https://y-ora-que.vercel.app)**
+
 Describe what you feel like doing — *"something chill for a date,"* *"a cheap plan with friends on Saturday,"* *"showing my family around"* — add optional filters, and the app returns **3 real places** from a curated catalog of Zacatecas/Guadalupe venues, each with a short AI-written reason it fits and a suggested mini-itinerary (order + times).
 
 ![Screenshot of ¿Y ora qué?](docs/screenshot.png)
