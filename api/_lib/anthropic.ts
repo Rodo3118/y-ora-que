@@ -3,7 +3,7 @@ import { BadResponseError, MissingApiKeyError } from './errors.js';
 import type { AiRecommendationPayload, Filtros, Idioma, Venue } from '../../src/lib/types.js';
 
 /** Single place to bump the model version. */
-export const CLAUDE_MODEL = 'claude-sonnet-4-5';
+export const CLAUDE_MODEL = 'claude-sonnet-5';
 
 const MAX_TOKENS = 1200;
 
