@@ -59,6 +59,8 @@ User text + filters
 
 **Why filter in code before calling the LLM at all?** Three reasons: (1) cost/latency — don't ship a 26-venue catalog as tokens on every request, (2) it's a second, independent safety net against the model drifting outside the catalog — it's only ever shown ~12 valid candidates, (3) it keeps categoria/budget/area matching deterministic instead of trusting the model to apply a hard constraint correctly every time.
 
+**Real-world cost:** tested live against the production deployment — each recommendation request (pre-filter + one `claude-sonnet-5` tool-use call) costs **about $0.01 USD**. That's the direct payoff of only ever sending ~12 pre-filtered candidates instead of the full catalog.
+
 ## Project structure
 
 ```
